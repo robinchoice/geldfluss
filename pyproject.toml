@@ -1,0 +1,10 @@
+[project]
+name = "geldfluss"
+version = "0.1.0"
+description = "Weekly overview of where money moved across major economies and asset classes"
+requires-python = ">=3.12"
+dependencies = ["yfinance", "xlrd"]
+
+[tool.uv]
+package = false
+no-cache = true
